@@ -3,9 +3,15 @@
     background-color: #0f766e;
     color: #fff;
     border-radius: 10px;
+    width: 50%;
+    margin: 0 auto;
 
     .input {
       width: 25rem;
+      outline: none;
+    }
+    .isInvalid {
+      border: 2px solid rgb(139, 23, 23) ;
     }
     .label {
       font-size: 17px;
@@ -18,9 +24,17 @@
       width: 100px;
       margin-top: 20px;
     }
-    .btn:hover{
-        background-color: #0f766e;
-        color: #fff;
+    .btn:hover {
+      background-color: #0f766e;
+      color: #fff;
+    }
+    .error {
+      color: #9a0f0f;
+      background-color: #fff;
+      padding: 7px;
+      margin-top: 7px;
+      border-radius: 5px;
+      width: 100%;
     }
   }
 }
